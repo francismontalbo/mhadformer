@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras import layers
 
-# Import your custom blocks
 from utils.blocks.stemblock import StemBlock
 from utils.blocks.cefe import CeFEBlock
 from utils.blocks.emvit import EMViTBlock
@@ -58,16 +57,3 @@ class MHADFormer(tf.keras.Model):
         x = self.global_avg_pool(x)
         x = self.final_dropout(x, training=training)
         return self.output_layer(x)
-
-# Example usage:
-if __name__ == "__main__":
-    # Instantiate the model
-    model = MHADFormer(num_classes=5, image_size=224)
-    
-    # Build the model by calling it on a sample input (optional in TF 2.x)
-    sample_input = tf.random.normal([1, 224, 224, 3])
-    _ = model(sample_input)
-    
-    # Display the model summary by building the model with an Input layer.
-    model.build(input_shape=(None, 224, 224, 3))
-    model.summary()
