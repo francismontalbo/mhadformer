@@ -23,7 +23,7 @@ class FASTLayer(layers.Layer):
         self.mha = layers.MultiHeadAttention(num_heads=num_heads, key_dim=d, name="fast_mha")
         self.transformer_norm = layers.LayerNormalization(name="fast_transformer_norm")
         # Feed-forward network.
-        self.ffn_dense = layers.Dense(d, activation='relu', name="fast_ffn_dense")
+        self.ffn_dense = layers.Dense(d, activation='swish', name="fast_ffn_dense")
         self.ffn_norm = layers.LayerNormalization(name="fast_ffn_norm")
         # Final residual addition and normalization.
         self.final_norm = layers.LayerNormalization(name="fast_final_norm")
