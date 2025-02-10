@@ -7,7 +7,7 @@
 ---
 
 ## **📌 Graphical Abstract**  
-![Graphical Abstract](mhadformer_2025_final_graphical_abstract2.webp)
+![Graphical Abstract](mhadformer_2025_graphical_abstract.webp)
 
 ---
 
