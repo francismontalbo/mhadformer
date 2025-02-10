@@ -11,6 +11,18 @@
 
 ---
 
+## 📢 Full Details Coming Soon  
+The complete details, including model architecture, training methodology, and benchmark comparisons, will be made available **upon formal publication**. Stay tuned for updates!  
+
+For any inquiries or collaborations, feel free to reach out via email.  
+
+---
+
+📌 **License:** To be determined upon publication  
+📌 **Citation:** Citation details will be provided once the paper is published.  
+
+
+
 ## **📄 Abstract**  
 **  
 
