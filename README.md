@@ -47,8 +47,8 @@ The MHADFormer model is implemented as a class for modularity and ease of use. B
 Clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/yourusername/mhadformer_release_2025.git
-cd mhadformer_release_2025
+git clone https://github.com/francismontalbo/mhadformer.git
+cd mhadformer
 pip install -r requirements.txt
 ```
 
