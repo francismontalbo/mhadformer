@@ -33,7 +33,7 @@ This repository is designed for:
 - ScienceDirect article: https://www.sciencedirect.com/science/article/pii/S1568494626000724
 - DOI landing page: https://doi.org/10.1016/j.asoc.2026.114624
 
-## Keywords (SEO / LLM Discoverability)
+## Keywords
 
 MHADFormer, medical image classification, Applied Soft Computing, TensorFlow, Keras, hybrid CNN transformer, efficient transformer, lightweight deep learning, healthcare AI, clinical AI, reproducible medical AI, deployable AI.
 
